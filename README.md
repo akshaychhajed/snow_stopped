@@ -4,7 +4,7 @@ Handy command-line script to know when snowing stops!
 On Linux and Mac it will send a broadcast to all users, visible on command line
 
 # Instructions
-$ git clone https://github.com/akshaychhajed/snow_stopped
+$ git clone https://github.com/akshaychhajed/snow_stopped .
 
 $ python snow_stopped.py &
 
