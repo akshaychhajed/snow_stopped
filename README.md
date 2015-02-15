@@ -19,3 +19,8 @@ Broadcast Message from user@vm1
 Snowing stopped!
 
 $
+
+# How it works
+
+It tries to fetch your location based on your IP
+It uses this location to get weather info
