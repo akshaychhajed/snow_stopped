@@ -2,6 +2,7 @@ import urllib2
 import json
 import os
 import time
+import platform
 
 def get_loc():
     loc_request = urllib2.Request('http://ipinfo.io')
