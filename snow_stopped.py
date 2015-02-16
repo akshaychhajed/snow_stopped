@@ -23,7 +23,10 @@ def get_weather(loc_info):
     args='q='+loc_info["city"]+","+loc_info["region"]+","+loc_info["country"]
     request = urllib2.Request("http://api.openweathermap.org/data/2.5/weather?"+args)
     response = urllib2.urlopen(request).read()
-    return json.loads(response)
+    try:
+        return json.loads(response)
+    except Exception, e:
+        raise e
 
 
 def main():
