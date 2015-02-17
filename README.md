@@ -6,10 +6,10 @@ On Linux and Mac it will send a broadcast to all users, visible on command line
 # Instructions
 $ git clone https://github.com/akshaychhajed/snow_stopped .
 
-$ python snow_stopped.py &
+$ python snow_stopped.py
 
 # Example
-$ python snow_stopped.py &
+$ python snow_stopped.py
 
 You are located in [city],[region],[country]
 
@@ -23,4 +23,5 @@ $
 # How it works
 
 It tries to fetch your location based on your IP
-It uses this location to get weather info
+
+It uses this location to get weather information
