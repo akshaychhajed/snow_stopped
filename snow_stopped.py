@@ -41,7 +41,7 @@ def main():
         if(600 <= weather_info["weather"][0]["id"] < 700):
             time.sleep(300)
         else:
-            if( "Darwin" or "Linux" in platform.platform()):
+            if( ("Darwin" or "Linux") in platform.platform()):
                 os.system('echo Snowing stopped! | wall')
             else:
                 print "Snowing stopped!"
